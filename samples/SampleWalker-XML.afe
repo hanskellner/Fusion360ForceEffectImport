@@ -1,0 +1,754 @@
+<File Schema="9" Title="Diagram00014" IsImperial="1" UnitsVisible="1" LengthUnit="ft" AppType="afem" ForceUnit="lb" MovieIsValid="0" ScreenWidth="320" ScreenHeight="524" SimulationSpeed="35.000000">
+    <IsSessionModified>1</IsSessionModified>
+    <PrecisionMagnitude>3</PrecisionMagnitude>
+    <PrecisionLinear>3</PrecisionLinear>
+    <PrecisionAngular>1</PrecisionAngular>
+    <TrailingZeros>0</TrailingZeros>
+    <AvailableObjId>61</AvailableObjId>
+    <AvailableJointIdx>17</AvailableJointIdx>
+    <AvailableForceIdx>1</AvailableForceIdx>
+    <AvailableMomentIdx>1</AvailableMomentIdx>
+    <AvailableDistributedForceIdx>1</AvailableDistributedForceIdx>
+    <AvailableActuatorIdx>2</AvailableActuatorIdx>
+    <AvailableTrajectoryIdx>1</AvailableTrajectoryIdx>
+    <AvailableWeightIdx>1</AvailableWeightIdx>
+    <AvailableGearBoxIdx>1</AvailableGearBoxIdx>
+    <DOF>1</DOF>
+    <SolverStatus>0</SolverStatus>
+    <ResultsMode>2</ResultsMode>
+    <ComposeMode>2</ComposeMode>
+    <GraphicalForcesScale>1</GraphicalForcesScale>
+    <SavedViewScale>0.00754336</SavedViewScale>
+    <Point Label="SavedViewCam">
+        <x>0.228624554473099</x>
+        <y>0.156825003076603</y>
+    </Point>
+    <MaxMomentRenderingSize>1</MaxMomentRenderingSize>
+    <DLUnitForceScale>1</DLUnitForceScale>
+    <LastUsedWeight>0</LastUsedWeight>
+    <LastPlayedActuator ObjId="0" />
+    <CurrentPlayTime>9.00000000000077</CurrentPlayTime>
+    <ApplicationMode>2</ApplicationMode>
+    <Elements>
+        <Ided TypeID="Joint" ObjectId="1" Index="1">
+            <DofCount>3</DofCount>
+            <VMeta TypeID="AttachmentState" Label="AttachmentState">
+                <Point Label="AbsolutPosition">
+                    <x>-0.00451422299875215</x>
+                    <y>0.230493004432624</y>
+                </Point>
+                <Point Label="AbsolutDirection">
+                    <x>0</x>
+                    <y>0</y>
+                </Point>
+                <Angle>0</Angle>
+            </VMeta>
+            <Point Label="TextOffset">
+                <x>0</x>
+                <y>0</y>
+            </Point>
+            <Construction>0</Construction>
+            <VMeta TypeID="StandardJoint" Label="JointType" />
+            <Point Label="Origin">
+                <x>-0.00451422299875215</x>
+                <y>0.230493004432624</y>
+            </Point>
+        </Ided>
+        <Ided TypeID="Joint" ObjectId="2" Index="2">
+            <DofCount>3</DofCount>
+            <VMeta TypeID="AttachmentState" Label="AttachmentState">
+                <Point Label="AbsolutPosition">
+                    <x>-0.943724656026832</x>
+                    <y>-0.172474051039612</y>
+                </Point>
+                <Point Label="AbsolutDirection">
+                    <x>0</x>
+                    <y>0</y>
+                </Point>
+                <Angle>0</Angle>
+            </VMeta>
+            <Point Label="TextOffset">
+                <x>0</x>
+                <y>0</y>
+            </Point>
+            <Construction>0</Construction>
+            <VMeta TypeID="StandardJoint" Label="JointType" />
+            <Point Label="Origin">
+                <x>-0.943724656026832</x>
+                <y>-0.172474051039612</y>
+            </Point>
+        </Ided>
+        <Ided TypeID="Component" ObjectId="3">
+            <DofCount>1</DofCount>
+            <Point Label="TextOffset">
+                <x>0</x>
+                <y>0</y>
+            </Point>
+            <Construction>0</Construction>
+            <StartJoint ObjId="1" />
+            <EndJoint ObjId="2" />
+        </Ided>
+        <Ided TypeID="Joint" ObjectId="4" Index="3">
+            <DofCount>3</DofCount>
+            <VMeta TypeID="AttachmentState" Label="AttachmentState">
+                <Point Label="AbsolutPosition">
+                    <x>0.980005320917688</x>
+                    <y>-0.167457214559935</y>
+                </Point>
+                <Point Label="AbsolutDirection">
+                    <x>0</x>
+                    <y>0</y>
+                </Point>
+                <Angle>0</Angle>
+            </VMeta>
+            <Point Label="TextOffset">
+                <x>0</x>
+                <y>0</y>
+            </Point>
+            <Construction>0</Construction>
+            <VMeta TypeID="StandardJoint" Label="JointType" />
+            <Point Label="Origin">
+                <x>0.980005320917688</x>
+                <y>-0.167457214559935</y>
+            </Point>
+        </Ided>
+        <Ided TypeID="Component" ObjectId="5">
+            <DofCount>1</DofCount>
+            <Point Label="TextOffset">
+                <x>0</x>
+                <y>0</y>
+            </Point>
+            <Construction>0</Construction>
+            <StartJoint ObjId="1" />
+            <EndJoint ObjId="4" />
+        </Ided>
+        <Ided TypeID="Joint" ObjectId="6" Index="4">
+            <DofCount>3</DofCount>
+            <VMeta TypeID="AttachmentState" Label="AttachmentState">
+                <Point Label="AbsolutPosition">
+                    <x>1.32388490594157</x>
+                    <y>-1.21232411196421</y>
+                </Point>
+                <Point Label="AbsolutDirection">
+                    <x>0</x>
+                    <y>0</y>
+                </Point>
+                <Angle>0</Angle>
+            </VMeta>
+            <Point Label="TextOffset">
+                <x>0</x>
+                <y>0</y>
+            </Point>
+            <Construction>0</Construction>
+            <VMeta TypeID="StandardJoint" Label="JointType" />
+            <Point Label="Origin">
+                <x>1.32388490594157</x>
+                <y>-1.21232411196421</y>
+            </Point>
+        </Ided>
+        <Ided TypeID="Component" ObjectId="7">
+            <DofCount>2</DofCount>
+            <Point Label="TextOffset">
+                <x>0</x>
+                <y>0</y>
+            </Point>
+            <Construction>0</Construction>
+            <StartJoint ObjId="4" />
+            <EndJoint ObjId="6" />
+        </Ided>
+        <Ided TypeID="Joint" ObjectId="8" Index="5">
+            <DofCount>3</DofCount>
+            <VMeta TypeID="AttachmentState" Label="AttachmentState">
+                <Point Label="AbsolutPosition">
+                    <x>1.57389494554954</x>
+                    <y>0.085607746566787</y>
+                </Point>
+                <Point Label="AbsolutDirection">
+                    <x>0</x>
+                    <y>0</y>
+                </Point>
+                <Angle>0</Angle>
+            </VMeta>
+            <Point Label="TextOffset">
+                <x>0</x>
+                <y>0</y>
+            </Point>
+            <Construction>0</Construction>
+            <VMeta TypeID="StandardJoint" Label="JointType" />
+            <Point Label="Origin">
+                <x>1.57389494554954</x>
+                <y>0.085607746566787</y>
+            </Point>
+        </Ided>
+        <Ided TypeID="Joint" ObjectId="9" Index="6">
+            <DofCount>3</DofCount>
+            <VMeta TypeID="AttachmentState" Label="AttachmentState">
+                <ComponentMember1 ObjId="7" />
+                <Point Label="AbsolutPosition">
+                    <x>1.26891875431583</x>
+                    <y>-1.04531125189911</y>
+                </Point>
+                <Point Label="AbsolutDirection">
+                    <x>0</x>
+                    <y>0</y>
+                </Point>
+                <Angle>0</Angle>
+            </VMeta>
+            <Point Label="TextOffset">
+                <x>0</x>
+                <y>0</y>
+            </Point>
+            <Construction>0</Construction>
+            <VMeta TypeID="StandardJoint" Label="JointType" />
+            <Point Label="Origin">
+                <x>1.26891875431583</x>
+                <y>-1.04531125189911</y>
+            </Point>
+        </Ided>
+        <Ided TypeID="Component" ObjectId="10">
+            <DofCount>2</DofCount>
+            <Point Label="TextOffset">
+                <x>0</x>
+                <y>0</y>
+            </Point>
+            <Construction>0</Construction>
+            <StartJoint ObjId="8" />
+            <EndJoint ObjId="9" />
+        </Ided>
+        <Ided TypeID="Component" ObjectId="12">
+            <DofCount>2</DofCount>
+            <Point Label="TextOffset">
+                <x>0</x>
+                <y>0</y>
+            </Point>
+            <Construction>0</Construction>
+            <StartJoint ObjId="8" />
+            <EndJoint ObjId="4" />
+        </Ided>
+        <Ided TypeID="Joint" ObjectId="13" Index="7">
+            <DofCount>3</DofCount>
+            <VMeta TypeID="AttachmentState" Label="AttachmentState">
+                <Point Label="AbsolutPosition">
+                    <x>1.34059968144232</x>
+                    <y>0.692298211377499</y>
+                </Point>
+                <Point Label="AbsolutDirection">
+                    <x>0</x>
+                    <y>0</y>
+                </Point>
+                <Angle>0</Angle>
+            </VMeta>
+            <Point Label="TextOffset">
+                <x>0</x>
+                <y>0</y>
+            </Point>
+            <Construction>0</Construction>
+            <VMeta TypeID="StandardJoint" Label="JointType" />
+            <Point Label="Origin">
+                <x>1.34059968144232</x>
+                <y>0.692298211377499</y>
+            </Point>
+        </Ided>
+        <Ided TypeID="Component" ObjectId="14">
+            <DofCount>2</DofCount>
+            <Point Label="TextOffset">
+                <x>0</x>
+                <y>0</y>
+            </Point>
+            <Construction>0</Construction>
+            <StartJoint ObjId="8" />
+            <EndJoint ObjId="13" />
+        </Ided>
+        <Ided TypeID="Joint" ObjectId="15" Index="8">
+            <DofCount>3</DofCount>
+            <VMeta TypeID="AttachmentState" Label="AttachmentState">
+                <Point Label="AbsolutPosition">
+                    <x>0.6720839837</x>
+                    <y>0.4751386987</y>
+                </Point>
+                <Point Label="AbsolutDirection">
+                    <x>0</x>
+                    <y>0</y>
+                </Point>
+                <Angle>0</Angle>
+            </VMeta>
+            <Point Label="TextOffset">
+                <x>0</x>
+                <y>0</y>
+            </Point>
+            <Construction>0</Construction>
+            <VMeta TypeID="StandardJoint" Label="JointType" />
+            <Point Label="Origin">
+                <x>0.6720839837</x>
+                <y>0.4751386987</y>
+            </Point>
+        </Ided>
+        <Ided TypeID="Component" ObjectId="16">
+            <DofCount>1</DofCount>
+            <Point Label="TextOffset">
+                <x>0</x>
+                <y>0</y>
+            </Point>
+            <Construction>0</Construction>
+            <StartJoint ObjId="13" />
+            <EndJoint ObjId="15" />
+        </Ided>
+        <Ided TypeID="Component" ObjectId="18">
+            <DofCount>1</DofCount>
+            <Point Label="TextOffset">
+                <x>0</x>
+                <y>0</y>
+            </Point>
+            <Construction>0</Construction>
+            <StartJoint ObjId="15" />
+            <EndJoint ObjId="4" />
+        </Ided>
+        <Ided TypeID="Joint" ObjectId="19" Index="9">
+            <DofCount>3</DofCount>
+            <VMeta TypeID="AttachmentState" Label="AttachmentState">
+                <Point Label="AbsolutPosition">
+                    <x>0.509774879066969</x>
+                    <y>1.14037787170003</y>
+                </Point>
+                <Point Label="AbsolutDirection">
+                    <x>0</x>
+                    <y>0</y>
+                </Point>
+                <Angle>0</Angle>
+            </VMeta>
+            <Point Label="TextOffset">
+                <x>0</x>
+                <y>0</y>
+            </Point>
+            <Construction>0</Construction>
+            <VMeta TypeID="StandardJoint" Label="JointType" />
+            <Point Label="Origin">
+                <x>0.509774879066969</x>
+                <y>1.14037787170003</y>
+            </Point>
+        </Ided>
+        <Ided TypeID="Component" ObjectId="20">
+            <DofCount>1</DofCount>
+            <Point Label="TextOffset">
+                <x>0</x>
+                <y>0</y>
+            </Point>
+            <Construction>0</Construction>
+            <StartJoint ObjId="15" />
+            <EndJoint ObjId="19" />
+        </Ided>
+        <Ided TypeID="Component" ObjectId="22">
+            <DofCount>1</DofCount>
+            <Point Label="TextOffset">
+                <x>0</x>
+                <y>0</y>
+            </Point>
+            <Construction>0</Construction>
+            <StartJoint ObjId="13" />
+            <EndJoint ObjId="19" />
+        </Ided>
+        <Ided TypeID="Component" ObjectId="24">
+            <DofCount>1</DofCount>
+            <Point Label="TextOffset">
+                <x>0</x>
+                <y>0</y>
+            </Point>
+            <Construction>0</Construction>
+            <StartJoint ObjId="1" />
+            <EndJoint ObjId="19" />
+        </Ided>
+        <Ided TypeID="Joint" ObjectId="25" Index="10">
+            <DofCount>3</DofCount>
+            <VMeta TypeID="AttachmentState" Label="AttachmentState">
+                <Point Label="AbsolutPosition">
+                    <x>-0.625706823601386</x>
+                    <y>1.0946307459462</y>
+                </Point>
+                <Point Label="AbsolutDirection">
+                    <x>0</x>
+                    <y>0</y>
+                </Point>
+                <Angle>0</Angle>
+            </VMeta>
+            <Point Label="TextOffset">
+                <x>0</x>
+                <y>0</y>
+            </Point>
+            <Construction>0</Construction>
+            <VMeta TypeID="StandardJoint" Label="JointType" />
+            <Point Label="Origin">
+                <x>-0.625706823601386</x>
+                <y>1.0946307459462</y>
+            </Point>
+        </Ided>
+        <Ided TypeID="Component" ObjectId="26">
+            <DofCount>1</DofCount>
+            <Point Label="TextOffset">
+                <x>0</x>
+                <y>0</y>
+            </Point>
+            <Construction>0</Construction>
+            <StartJoint ObjId="1" />
+            <EndJoint ObjId="25" />
+        </Ided>
+        <Ided TypeID="Joint" ObjectId="27" Index="11">
+            <DofCount>3</DofCount>
+            <VMeta TypeID="AttachmentState" Label="AttachmentState">
+                <Point Label="AbsolutPosition">
+                    <x>-0.7312151733</x>
+                    <y>0.4751386987</y>
+                </Point>
+                <Point Label="AbsolutDirection">
+                    <x>0</x>
+                    <y>0</y>
+                </Point>
+                <Angle>0</Angle>
+            </VMeta>
+            <Point Label="TextOffset">
+                <x>0</x>
+                <y>0</y>
+            </Point>
+            <Construction>0</Construction>
+            <VMeta TypeID="StandardJoint" Label="JointType" />
+            <Point Label="Origin">
+                <x>-0.7312151733</x>
+                <y>0.4751386987</y>
+            </Point>
+        </Ided>
+        <Ided TypeID="Component" ObjectId="28">
+            <DofCount>1</DofCount>
+            <Point Label="TextOffset">
+                <x>0</x>
+                <y>0</y>
+            </Point>
+            <Construction>0</Construction>
+            <StartJoint ObjId="25" />
+            <EndJoint ObjId="27" />
+        </Ided>
+        <Ided TypeID="Joint" ObjectId="29" Index="12">
+            <DofCount>3</DofCount>
+            <VMeta TypeID="AttachmentState" Label="AttachmentState">
+                <Point Label="AbsolutPosition">
+                    <x>-1.37405539452427</x>
+                    <y>0.594656331352869</y>
+                </Point>
+                <Point Label="AbsolutDirection">
+                    <x>0</x>
+                    <y>0</y>
+                </Point>
+                <Angle>0</Angle>
+            </VMeta>
+            <Point Label="TextOffset">
+                <x>0</x>
+                <y>0</y>
+            </Point>
+            <Construction>0</Construction>
+            <VMeta TypeID="StandardJoint" Label="JointType" />
+            <Point Label="Origin">
+                <x>-1.37405539452427</x>
+                <y>0.594656331352869</y>
+            </Point>
+        </Ided>
+        <Ided TypeID="Component" ObjectId="30">
+            <DofCount>1</DofCount>
+            <Point Label="TextOffset">
+                <x>0</x>
+                <y>0</y>
+            </Point>
+            <Construction>0</Construction>
+            <StartJoint ObjId="25" />
+            <EndJoint ObjId="29" />
+        </Ided>
+        <Ided TypeID="Component" ObjectId="32">
+            <DofCount>1</DofCount>
+            <Point Label="TextOffset">
+                <x>0</x>
+                <y>0</y>
+            </Point>
+            <Construction>0</Construction>
+            <StartJoint ObjId="29" />
+            <EndJoint ObjId="27" />
+        </Ided>
+        <Ided TypeID="Component" ObjectId="34">
+            <DofCount>1</DofCount>
+            <Point Label="TextOffset">
+                <x>0</x>
+                <y>0</y>
+            </Point>
+            <Construction>0</Construction>
+            <StartJoint ObjId="27" />
+            <EndJoint ObjId="2" />
+        </Ided>
+        <Ided TypeID="Joint" ObjectId="35" Index="13">
+            <DofCount>3</DofCount>
+            <VMeta TypeID="AttachmentState" Label="AttachmentState">
+                <Point Label="AbsolutPosition">
+                    <x>-1.62451864453489</x>
+                    <y>-0.000127157500055698</y>
+                </Point>
+                <Point Label="AbsolutDirection">
+                    <x>0</x>
+                    <y>0</y>
+                </Point>
+                <Angle>0</Angle>
+            </VMeta>
+            <Point Label="TextOffset">
+                <x>0</x>
+                <y>0</y>
+            </Point>
+            <Construction>0</Construction>
+            <VMeta TypeID="StandardJoint" Label="JointType" />
+            <Point Label="Origin">
+                <x>-1.62451864453489</x>
+                <y>-0.000127157500055698</y>
+            </Point>
+        </Ided>
+        <Ided TypeID="Component" ObjectId="36">
+            <DofCount>2</DofCount>
+            <Point Label="TextOffset">
+                <x>0</x>
+                <y>0</y>
+            </Point>
+            <Construction>0</Construction>
+            <StartJoint ObjId="2" />
+            <EndJoint ObjId="35" />
+        </Ided>
+        <Ided TypeID="Component" ObjectId="38">
+            <DofCount>2</DofCount>
+            <Point Label="TextOffset">
+                <x>0</x>
+                <y>0</y>
+            </Point>
+            <Construction>0</Construction>
+            <StartJoint ObjId="35" />
+            <EndJoint ObjId="29" />
+        </Ided>
+        <Ided TypeID="Joint" ObjectId="39" Index="14">
+            <DofCount>3</DofCount>
+            <VMeta TypeID="AttachmentState" Label="AttachmentState">
+                <ComponentMember1 ObjId="42" />
+                <Point Label="AbsolutPosition">
+                    <x>-1.21985147968139</x>
+                    <y>-1.09495706040419</y>
+                </Point>
+                <Point Label="AbsolutDirection">
+                    <x>0</x>
+                    <y>0</y>
+                </Point>
+                <Angle>0</Angle>
+            </VMeta>
+            <Point Label="TextOffset">
+                <x>0</x>
+                <y>0</y>
+            </Point>
+            <Construction>0</Construction>
+            <VMeta TypeID="StandardJoint" Label="JointType" />
+            <Point Label="Origin">
+                <x>-1.21985147968139</x>
+                <y>-1.09495706040419</y>
+            </Point>
+        </Ided>
+        <Ided TypeID="Component" ObjectId="40">
+            <DofCount>2</DofCount>
+            <Point Label="TextOffset">
+                <x>0</x>
+                <y>0</y>
+            </Point>
+            <Construction>0</Construction>
+            <StartJoint ObjId="35" />
+            <EndJoint ObjId="39" />
+        </Ided>
+        <Ided TypeID="Joint" ObjectId="41" Index="15">
+            <DofCount>3</DofCount>
+            <VMeta TypeID="AttachmentState" Label="AttachmentState">
+                <Point Label="AbsolutPosition">
+                    <x>-1.25915950343202</x>
+                    <y>-1.2262770955063</y>
+                </Point>
+                <Point Label="AbsolutDirection">
+                    <x>0</x>
+                    <y>0</y>
+                </Point>
+                <Angle>0</Angle>
+            </VMeta>
+            <Point Label="TextOffset">
+                <x>0</x>
+                <y>0</y>
+            </Point>
+            <Construction>0</Construction>
+            <VMeta TypeID="StandardJoint" Label="JointType" />
+            <Point Label="Origin">
+                <x>-1.25915950343202</x>
+                <y>-1.2262770955063</y>
+            </Point>
+        </Ided>
+        <Ided TypeID="Component" ObjectId="42">
+            <DofCount>2</DofCount>
+            <Point Label="TextOffset">
+                <x>0</x>
+                <y>0</y>
+            </Point>
+            <Construction>0</Construction>
+            <StartJoint ObjId="2" />
+            <EndJoint ObjId="41" />
+        </Ided>
+        <Ided TypeID="Support" ObjectId="43">
+            <DofCount>3</DofCount>
+            <VMeta TypeID="AttachmentGlobalAngle" Label="AttachmentState">
+                <ComponentMember1 ObjId="27" />
+                <Point Label="AbsolutPosition">
+                    <x>-0.7312151733</x>
+                    <y>0.4751386987</y>
+                </Point>
+                <Point Label="AbsolutDirection">
+                    <x>-1</x>
+                    <y>0</y>
+                </Point>
+                <Angle>4.71238898</Angle>
+            </VMeta>
+            <Point Label="TextOffset">
+                <x>0</x>
+                <y>0</y>
+            </Point>
+            <Construction>0</Construction>
+            <VMeta TypeID="FixedPin" Label="SupportType" />
+            <Point Label="BMin">
+                <x>-0.550174632962437</x>
+                <y>0.565658968868781</y>
+            </Point>
+            <Point Label="BMax">
+                <x>-0.550174632962437</x>
+                <y>0.384618428531219</y>
+            </Point>
+        </Ided>
+        <Ided TypeID="Support" ObjectId="44">
+            <DofCount>3</DofCount>
+            <VMeta TypeID="AttachmentGlobalAngle" Label="AttachmentState">
+                <ComponentMember1 ObjId="15" />
+                <Point Label="AbsolutPosition">
+                    <x>0.6720839837</x>
+                    <y>0.4751386987</y>
+                </Point>
+                <Point Label="AbsolutDirection">
+                    <x>0.9892697382</x>
+                    <y>-0.1461005992</y>
+                </Point>
+                <Angle>1.717421745</Angle>
+            </VMeta>
+            <Point Label="TextOffset">
+                <x>0</x>
+                <y>0</y>
+            </Point>
+            <Construction>0</Construction>
+            <VMeta TypeID="FixedPin" Label="SupportType" />
+            <Point Label="BMin">
+                <x>0.479760990045739</x>
+                <y>0.412039866151301</y>
+            </Point>
+            <Point Label="BMax">
+                <x>0.506211121468484</x>
+                <y>0.591137794094189</y>
+            </Point>
+        </Ided>
+        <Ided TypeID="Joint" ObjectId="45" Index="16">
+            <DofCount>3</DofCount>
+            <VMeta TypeID="AttachmentState" Label="AttachmentState">
+                <Point Label="AbsolutPosition">
+                    <x>-0.004571999889</x>
+                    <y>0.4389119893</y>
+                </Point>
+                <Point Label="AbsolutDirection">
+                    <x>0</x>
+                    <y>0</y>
+                </Point>
+                <Angle>0</Angle>
+            </VMeta>
+            <Point Label="TextOffset">
+                <x>0</x>
+                <y>0</y>
+            </Point>
+            <Construction>0</Construction>
+            <VMeta TypeID="StandardJoint" Label="JointType" />
+            <Point Label="Origin">
+                <x>-0.004571999889</x>
+                <y>0.4389119893</y>
+            </Point>
+        </Ided>
+        <Ided TypeID="Component" ObjectId="47">
+            <DofCount>1</DofCount>
+            <Point Label="TextOffset">
+                <x>0</x>
+                <y>0</y>
+            </Point>
+            <Construction>0</Construction>
+            <StartJoint ObjId="45" />
+            <EndJoint ObjId="1" />
+        </Ided>
+        <Ided TypeID="Support" ObjectId="48">
+            <DofCount>3</DofCount>
+            <VMeta TypeID="AttachmentGlobalAngle" Label="AttachmentState">
+                <ComponentMember1 ObjId="45" />
+                <Point Label="AbsolutPosition">
+                    <x>-0.004571999889</x>
+                    <y>0.4389119893</y>
+                </Point>
+                <Point Label="AbsolutDirection">
+                    <x>0</x>
+                    <y>1</y>
+                </Point>
+                <Angle>0</Angle>
+            </VMeta>
+            <Point Label="TextOffset">
+                <x>0</x>
+                <y>0</y>
+            </Point>
+            <Construction>0</Construction>
+            <VMeta TypeID="FixedPin" Label="SupportType" />
+            <Point Label="BMin">
+                <x>0.0859482702797813</x>
+                <y>0.257871448962437</y>
+            </Point>
+            <Point Label="BMax">
+                <x>-0.0950922700577813</x>
+                <y>0.257871448962437</y>
+            </Point>
+        </Ided>
+        <Ided TypeID="CircularActuator" ObjectId="49" Index="1">
+            <DofCount>3</DofCount>
+            <VMeta TypeID="AttachmentState" Label="AttachmentState">
+                <ComponentMember1 ObjId="45" />
+                <Point Label="AbsolutPosition">
+                    <x>-0.004571999889</x>
+                    <y>0.4389119893</y>
+                </Point>
+                <Point Label="AbsolutDirection">
+                    <x>0</x>
+                    <y>0</y>
+                </Point>
+                <Angle>0</Angle>
+            </VMeta>
+            <Point Label="TextOffset">
+                <x>0</x>
+                <y>0</y>
+            </Point>
+            <Construction>0</Construction>
+            <Speed>1</Speed>
+            <Component1 ObjId="0" />
+            <Component2 ObjId="47" />
+            <Point Label="BMin">
+                <x>-0.203245069268373</x>
+                <y>0.0932164211445437</y>
+            </Point>
+            <Point Label="BMax">
+                <x>-0.00208891747695965</x>
+                <y>0.294372572935957</y>
+            </Point>
+            <clockwise>0</clockwise>
+            <rotationAngle>360</rotationAngle>
+            <homePositionAngle>4.730119488</homePositionAngle>
+            <rangeStart>0</rangeStart>
+        </Ided>
+    </Elements>
+    <GeometricConstraints />
+    <TracedResultElements />
+</File>
