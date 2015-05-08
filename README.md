@@ -63,11 +63,15 @@ To a 3D printed version:
 
 ![ForceEffect Motion Walker 3D Print](resources/ForceEffect Motion Walker 3D Print.jpeg)
 
-[ForceEffect Motion Walker 3D Printed Video](http://atube/media/forceeffect-motion-walker-sample-3d-printed-and-an "ForceEffect Motion Walker 3D Printed Video")
-
 The 3D printed version was created using the steps above.  After importing the walker into F360, I exported the pieces as STL files and then 3D printed those.
 
 I also laser etched and cut the backing plexiglass from the "instructions" sketch that is created in the process.  Finally, I pinned the pieces together and mounted the fixed joints to the plexiglass.
+
+Watch a video of it here:
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=nlOJGdLGP20
+" target="_blank"><img src="http://img.youtube.com/vi/nlOJGdLGP20/0.jpg" 
+alt="ForceEffect Motion Walker 3D Print" width="240" height="180" border="10" /></a>
 
 Cheers!
 
