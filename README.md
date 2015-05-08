@@ -25,12 +25,13 @@ The script should be ready to run.
 
 ## Usage
 
-Now run ForceEffect or ForceEffect Motion and open one of the drawings or create your own.  Select the share button from the toolbar and e-mail the drawing
-to yourself.  Once you get the e-mail, save the attached file (FEFile###.afe) locally.  This is what you will be importing.
+From Autodesk ForceEffect or ForceEffect Motion open one of the sample drawings or create your own.  Select the share button from the toolbar and e-mail the drawing to yourself.  Once you get the e-mail, save the attached file (FEFile###.afe) locally. This is what you will be importing.
 
-- <i>You may also find the Walker file in the samples folder.<i>
+Or run the on-line versions located at [](https://forceeffect.autodesk.com/) and publish your drawing to your A360 account. Once published, access your A360 account, find the file and download it locally.
 
-Start Fusion 360 and from the file menu, select Scripts, then run ForceEffectImport. When prompted for a file, select your AFE file.
+- <i>Note, you may also find a Walker sample file in the samples folder. One in binary format and the other in text. Either will work for testing.<i>
+
+Start Autodesk Fusion 360 and from the file menu, select Scripts and Add-Ins then run ForceEffectImport. When prompted for a file, select your AFE file.
 
 In the next dialog you are given a few options that effect the creation of the model.
 
