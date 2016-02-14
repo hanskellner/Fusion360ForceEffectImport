@@ -36,7 +36,7 @@ The script should be ready to run.
 */
 
 /*globals adsk*/
-(function () {
+function run(context) {
 
     "use strict";
 
@@ -716,4 +716,4 @@ The script should be ready to run.
 
         adsk.terminate();
     }
-}());
+}
