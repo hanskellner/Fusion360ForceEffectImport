@@ -1,27 +1,10 @@
 # ![ForceEffect Import for Fusion 360](resources/64x64.png) ForceEffect Import for Fusion 360
 
-![ForceEffect Motion Walker in Fusion 360](resources/ForceEffect Motion Walker in Fusion 360.png)
+![ForceEffect Motion Walker in Fusion 360](resources/ForceEffect%20Motion%20Walker%20in%20Fusion%20360.png)
 
 ## Installation
 
-Copy the "Fusion360ForceEffectImport" folder into your Fusion 360 "My Scripts" folder. You may find this folder using the following steps:
-
-1. Start Fusion 360 and then select the File -> "Scripts and Add-Ins..." menu item
-2. The Scripts and Add-Ins dialog will appear and display the "My Scripts" and "Sample Scripts" folders
-3. Select one of the "My Scripts" files and then click on the "+" Details icon near the bottom of the dialog.
-  - If there are no files in the "My Scripts" folder then create a default one by clicking the Create button, select JavaScript, and then OK.
-4. With a user script selected and the "Details" section expanded, look at the Full Path value.  This contains the location of the user scripts folder.
-5. Copy this script's folder into that location.
-  For example, on my Mac the folder is located in:
-    /Users/USERNAME/Library/Application Support/Autodesk/Autodesk Fusion 360/API/Scripts
-  And on Windows:
-    C:\users\USERNAME\AppData\Roaming\Autodesk\Autodesk Fusion 360\API\Scripts
-6. Now add the script to the lists of "My Scripts"
-7. Click the "+" icon next to the "my Scripts" item
-  - The "Add new script" dialog should appear.
-8. Locate the ForceEffectImport.js file in the folder you copied, select it, and click Open. The script should now be installed and ready to be run.
-
-The script should be ready to run.
+Follow the steps from Autodesk Help: https://knowledge.autodesk.com/support/fusion-360/troubleshooting/caas/sfdcarticles/sfdcarticles/How-to-install-an-ADD-IN-and-Script-in-Fusion-360.html
 
 ## Usage
 
@@ -29,7 +12,7 @@ From Autodesk ForceEffect or ForceEffect Motion open one of the sample drawings 
 
 Or run the on-line versions located at [](https://forceeffect.autodesk.com/) and publish your drawing to your A360 account. Once published, access your A360 account, find the file and download it locally.
 
-- <i>Note, you may also find a Walker sample file in the samples folder. One in binary format and the other in text. Either will work for testing.<i>
+- Note, you may also find a Walker sample file in the samples folder. One in binary format and the other in text. Either will work for testing.
 
 Start Autodesk Fusion 360 and from the file menu, select Scripts and Add-Ins then run ForceEffectImport. When prompted for a file, select your AFE file.
 
@@ -55,13 +38,13 @@ Now each body may be exported and 3D printed or used within another application.
 
 Go from this:
 
-![ForceEffect Motion App Walker Sample](resources/ForceEffect Motion App - Walker.jpeg)
+![ForceEffect Motion App Walker Sample](resources/ForceEffect%20Motion%20App%20-%20Walker.jpeg)
 
 [YouTube: Autodesk ForceEffect Motion "Walker" Sample](http://youtu.be/snXMVDMo-Rc?t=10s "Autodesk ForceEffect Motion Walker Sample")
 
 To a 3D printed version:
 
-![ForceEffect Motion Walker 3D Print](resources/ForceEffect Motion Walker 3D Print.jpeg)
+![ForceEffect Motion Walker 3D Print](resources/ForceEffect%20Motion%20Walker%203D%20Print.jpeg)
 
 The 3D printed version was created using the steps above.  After importing the walker into F360, I exported the pieces as STL files and then 3D printed those.
 
@@ -81,7 +64,7 @@ Cheers!
 
 ### Wishlist
 - Fusion 360
- - Allow multiple selection for export to STL.
- - Add support to the API for text elements in sketches
+  - Allow multiple selection for export to STL.
+  - Add support to the API for text elements in sketches
 - ForceEffect and ForceEffect Motion
- - Add support for publishing the AFE documents as XML/JSON only rather than binary.  Note, the on-line version allows this by publishing to A360.
+  - Add support for publishing the AFE documents as XML/JSON only rather than binary.  Note, the on-line version allows this by publishing to A360.
